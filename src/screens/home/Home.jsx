@@ -25,7 +25,6 @@ const Home = () => {
       <img src={portfolioPic} alt="portfolio pic" />
       <h2>Dave's Portfolio</h2>
      </div>
-
     </div>
   );
 }
