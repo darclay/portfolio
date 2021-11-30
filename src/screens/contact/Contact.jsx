@@ -1,5 +1,5 @@
 import './Contact.css';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import linkedintype from './photos/linkedintype.png';
 import linkedinpic from './photos/linkedinpic.png';
 import githubtype from './photos/githubtype.png';
@@ -77,7 +77,9 @@ const Contact = () => {
     </form>
     </div>
     <h2>Home</h2>
+    <Link to="/">
     <img src={shield} alt="shield"/>
+    </Link>
     </div>
   );
 }

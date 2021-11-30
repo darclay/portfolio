@@ -19,7 +19,9 @@ const Navigation = () => {
       </Link>
     </nav>
     <div>
+    <Link to="/">
     <img src={shield} alt="shield" />
+    </Link>
     <h1 id="david-title">DAVID BARCLAY GURULE</h1>
     </div>
     </div>
