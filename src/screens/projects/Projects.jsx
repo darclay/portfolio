@@ -1,4 +1,4 @@
-import './Portfolio.css';
+import './Projects.css';
 import { Link, Route, Routes } from 'react-router-dom';
 import collisionCourseDesktop from './photos/collision_course.png';
 import collisionCourseMobile from './photos/collision_course_mobile.png';
@@ -9,11 +9,10 @@ import everfreeMobile from './photos/everfree_mobile.png';
 import wwwLogo from './photos/www.png';
 import githubLogo from './photos/github.png';
 
-const Portfolio = () => {
+const Projects = () => {
   return (
-    <div className="PortfolioDiv">
-     <h1>PORTFOLIO</h1>
-     
+    <div className="ProjectsDiv">
+     <h1>PROJECTS</h1>
      <div className="everfree">
        <img src={everfreeDesktop} alt="everfree site"/>
        <img src={everfreeMobile} alt="everfree mobile site"/>
@@ -55,4 +54,4 @@ const Portfolio = () => {
   );
 }
 
-export default Portfolio;
+export default Projects;

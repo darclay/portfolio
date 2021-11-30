@@ -4,6 +4,7 @@ import linkedintype from './photos/linkedintype.png';
 import linkedinpic from './photos/linkedinpic.png';
 import githubtype from './photos/githubtype.png';
 import githubpic from './photos/githubpic.png';
+import shield from './photos/barclay_shield.png';
 
 const handleChange = () => {
   console.log('info added');
@@ -75,7 +76,8 @@ const Contact = () => {
     <button type='submit' className='contact-me-submit'>send</button>
     </form>
     </div>
-
+    <h2>Home</h2>
+    <img src={shield} alt="shield"/>
     </div>
   );
 }
