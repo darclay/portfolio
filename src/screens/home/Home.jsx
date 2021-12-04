@@ -7,25 +7,27 @@ import portfolioPic from './photos/collision-course-black-white.png';
 
 const Home = () => {
   return (
-    <div className="HomeDiv">
-     <h1>HOME</h1>
-
-    <aside>
-      <img src={windows} alt="windows" />
-    </aside>
+    <>
+   <img className="windows" src={windows} alt="windows" />
+    <div className="HomeDiv">    
      <div className="MeetDavidDiv">
-      <img src={davidPic} alt="david" />
+      <img id="david" src={davidPic} alt="david" />
       <h2>Meet Dave</h2>
      </div>
+     <hr className="separator"/>
      <div className="DavidResumeDiv">
-      <img src={resumePic} alt="resume" />
+      <img id="resume" src={resumePic} alt="resume" />
       <h2>Dave's Resume</h2>
+    <hr className="separator"/>
      </div>
      <div className="DavidPortfolioDiv">
-      <img src={portfolioPic} alt="portfolio pic" />
+      <img id="portfoliopic" src={portfolioPic} alt="portfolio pic" />
       <h2>Dave's Portfolio</h2>
+    <hr className="separator"/>
+
      </div>
     </div>
+    </>
   );
 }
 

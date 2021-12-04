@@ -1,0 +1,39 @@
+body {
+  /* background-color: yellow; */
+}
+
+#david {
+  width:50vw;
+}
+.MeetDavidDiv {
+  display: flex;
+  align-items: center;
+  background-color: violet;
+  float: right;
+  width: 80vw;
+}
+.DavidResumeDiv {
+  background-color: gray;
+}
+.DavidPortfolioDiv {
+  float: right;
+  width: 80vw;
+  background-color: tomato;
+}
+ h2 {
+   margin-bottom: 0px; 
+ }
+.windows {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20vw;
+  height: 100%;
+  opacity: .7;
+}
+.separator {
+  background-color: #b9f0f2;
+  height: 30px;
+  width:80vw;
+  float: right;
+}
