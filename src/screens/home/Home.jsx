@@ -1,33 +1,44 @@
 import './Home.css';
-import { Link, Route, Routes } from 'react-router-dom';
 import windows from './photos/windows.jpg';
 import davidPic from './photos/david_pencil_sketch.png';
 import resumePic from './photos/resume.png';
 import portfolioPic from './photos/collision-course-black-white.png';
+import Navigation from '../../components/navigation/Navigation.jsx'
+import Footer from '../../components/footer/Footer.jsx'
 
 const Home = () => {
   return (
-    <>
-   <img className="windows" src={windows} alt="windows" />
-    <div className="HomeDiv">    
-     <div className="MeetDavidDiv">
-      <img id="david" src={davidPic} alt="david" />
-      <h2>Meet Dave</h2>
-     </div>
-     <hr className="separator"/>
-     <div className="DavidResumeDiv">
-      <img id="resume" src={resumePic} alt="resume" />
-      <h2>Dave's Resume</h2>
-    <hr className="separator"/>
-     </div>
-     <div className="DavidPortfolioDiv">
-      <img id="portfoliopic" src={portfolioPic} alt="portfolio pic" />
-      <h2>Dave's Portfolio</h2>
-    <hr className="separator"/>
+    <div className="HomeDiv">
+        <Navigation />
+        <br/>
+        
+        <div className="WindowDiv">
+          <img className="windows" src={windows} alt="windows" />
+        </div>
+    
+        <div className="MeetDavidDiv">
+        <img id="david" src={davidPic} alt="david" />
+        <h2 id="meetDave">Meet<br/>Dave</h2>
+        </div>
 
-     </div>
+        <hr className="separator"/>
+
+        <div className="DavidResumeDiv">
+        <h2 id="davesResume">Dave's<br/>Resume</h2>
+        <img id="resume" src={resumePic} alt="resume" />
+        </div>
+
+        <hr className="separator"/>
+
+        <div className="DavidPortfolioDiv">
+        <img id="portfoliopic" src={portfolioPic} alt="portfolio" />
+        <h2 id="davesPortfolio">Dave's<br/>Portfolio</h2>
+        </div>
+
+        <hr className="separator"/>
+
+        <Footer /> 
     </div>
-    </>
   );
 }
 

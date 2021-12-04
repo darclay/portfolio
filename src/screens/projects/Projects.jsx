@@ -8,10 +8,12 @@ import everfreeDesktop from './photos/everfree_desktop.png';
 import everfreeMobile from './photos/everfree_mobile.png';
 import wwwLogo from './photos/www.png';
 import githubLogo from './photos/github.png';
+import Navigation from '../../components/navigation/Navigation.jsx'
 
 const Projects = () => {
   return (
     <div className="ProjectsDiv">
+    <Navigation />
      <h1>PROJECTS</h1>
      <div className="everfree">
        <img src={everfreeDesktop} alt="everfree site"/>

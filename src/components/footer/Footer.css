@@ -1,0 +1,60 @@
+.footerDiv {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  float: right;
+}
+.upper-section {
+  background-color: #002f49b2;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #b9f0f2;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.lower-section {
+  background-color: #b9f0f2;;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.footericons {
+  height: 40px;
+}
+.connect-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+#one {
+  display: flex;
+  align-items: center;
+}
+#two {
+  display: flex;
+  align-items: center;
+ }
+ #three {
+  display: flex;
+  align-items: center;
+ }
+ #letsConnect {
+   font-size: 1em;
+   padding-top: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+ }

@@ -1,26 +1,51 @@
 .navigation-div {
-  background-color: #00304990;
+  background-color: #002f49b2;
 }
 nav {
   display: flex;
   justify-content: space-between;
   padding-right: 5vw;
   padding-left: 40vw;
-  font-size: 20px;
+  
 }
+.nav-link {
+  font-family: 'Gurajada', serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: white;
+  text-shadow:0px 0px 20px white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
 .shield-name {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding-left: 20vw;
   padding-right: 10vw;
-
 }
 #shield {
-  height: 100px;
+  height: 60px;
+  padding-top: 10px;
+}
+#shield:hover {
+  -webkit-filter: drop-shadow(0px 0px 20px white);
+  filter: drop-shadow(0px 0px 20px white);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 #david-title {
   font-family: 'Playfair Display', serif;
-  font-size: 3em;
-  margin-top: 30px;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10px;
   color: #b9f0f2;
   text-shadow:
    -1px -1px 0 #000,  
@@ -35,4 +60,5 @@ nav {
   color: black;
   text-shadow: none;
   margin-bottom: 0;
+  margin-top: 0;
 }

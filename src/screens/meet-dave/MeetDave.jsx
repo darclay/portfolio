@@ -7,11 +7,12 @@ import recruiter from './photos/recruiter.png';
 import schoolShooting from './photos/shooting.jpg';
 import hiker from './photos/hiker.jpg';
 import familyHiking from './photos/familyHiking.jpg';
-
+import Navigation from '../../components/navigation/Navigation.jsx'
 
 const MeetDave = () => {
   return (
     <div className="MeetDiv">
+      <Navigation />
       <div className="daveBio">
       <h2>Meet Dave</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu nibh eget ligula tempus efficitur ac gravida arcu. Donec dignissim malesuada mollis. Sed enim magna, faucibus tristique ultrices ut, commodo et lacus. Maecenas eros elit, tincidunt sed odio vitae, feugiat eleifend risus. Nam sed ante non sem varius bibendum. Morbi pharetra tincidunt elit sed pellentesque. Nulla egestas eget arcu vel interdum. Integer tempus, ex sed mollis dignissim, ipsum neque blandit ex, ac aliquam dolor est venenatis libero. Aliquam egestas efficitur felis, at aliquet neque maximus vitae. Pellentesque interdum turpis sed lorem interdum vehicula. Nunc id odio elementum, hendrerit ipsum sed, efficitur orci. Suspendisse sed nisl viverra, vulputate ex vitae, vestibulum ex. Donec tincidunt est ac risus interdum, eget lobortis felis ultricies.

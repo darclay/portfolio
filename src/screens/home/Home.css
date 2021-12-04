@@ -1,34 +1,52 @@
-body {
-  /* background-color: yellow; */
-}
-
-#david {
-  width:50vw;
-}
 .MeetDavidDiv {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  background-color: violet;
   float: right;
   width: 80vw;
+  margin-top: 0;
+}
+#david {
+  width: 60vw;
+  margin-left: 20px;
+  padding-right: -20px;
 }
 .DavidResumeDiv {
-  background-color: gray;
-}
-.DavidPortfolioDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   float: right;
   width: 80vw;
-  background-color: tomato;
 }
- h2 {
+#resume {
+  width: 60vw;
+}
+.DavidPortfolioDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  float: right;
+  width: 80vw;
+}
+#portfoliopic {
+  width: 60vw;
+}
+
+ #meetDave {
    margin-bottom: 0px; 
  }
+ #davesResume {
+  margin-bottom: 0px; 
+}
+#davesPortfolio {
+  margin-bottom: 0px; 
+}
 .windows {
   position: absolute;
   left: 0;
   top: 0;
   width: 20vw;
-  height: 100%;
+  height: max-content;
   opacity: .7;
 }
 .separator {

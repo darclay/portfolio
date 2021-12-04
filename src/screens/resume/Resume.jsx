@@ -1,9 +1,11 @@
 import './Resume.css';
 import { Link, Route, Routes } from 'react-router-dom';
+import Navigation from '../../components/navigation/Navigation.jsx'
 
 const Resume = () => {
   return (
     <div className="ResumeDiv">
+      <Navigation />
       <h2>Resume</h2>
       <button>DOWNLOAD</button>
       <div className="resumeHeader">
