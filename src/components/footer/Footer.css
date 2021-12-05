@@ -13,10 +13,10 @@
 }
 .quote {
   font-family: 'Playfair Display', serif;
-  font-size: 2em;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 20vw;
   color: #b9f0f2;
   text-shadow:
    -1px -1px 0 #000,  
@@ -39,6 +39,7 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 10px;
+  margin-left: 20vw;
 }
 #one {
   display: flex;
@@ -57,4 +58,19 @@
    padding-top: 10px;
    margin-top: 0px;
    margin-bottom: 0px;
+   margin-left: 20vw;
  }
+ @media only screen and (max-width: 1100px) {
+  .quote {
+    font-size: 1em; 
+ }
+ .connect-links {
+  margin-left: 0;
+}
+.quote {
+   margin-left: 0;
+}
+#letsConnect {
+  margin-left: 0;
+}
+}

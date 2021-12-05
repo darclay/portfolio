@@ -3,14 +3,13 @@ import windows from './photos/windows.jpg';
 import davidPic from './photos/david_pencil_sketch.png';
 import resumePic from './photos/resume.png';
 import portfolioPic from './photos/collision-course-black-white.png';
-import Navigation from '../../components/navigation/Navigation.jsx'
+import NavBar from '../../components/navigation/NavBar.jsx'
 import Footer from '../../components/footer/Footer.jsx'
 
 const Home = () => {
   return (
     <div className="HomeDiv">
-        <Navigation />
-        <br/>
+        <NavBar />
         
         <div className="WindowDiv">
           <img className="windows" src={windows} alt="windows" />

@@ -5,7 +5,6 @@
   float: right;
   width: 80vw;
   height: 400px;
-  margin-top: 0;
 }
 #david {
   height: 400px;
@@ -27,7 +26,7 @@
 }
 .DavidPortfolioDiv {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
   float: right;
   width: 80vw;
@@ -35,7 +34,8 @@
 }
 #portfoliopic {
   width: auto;
-  height: 350px
+  height: 350px;
+  margin-right: 30px;
 }
 
  #meetDave {
@@ -61,14 +61,15 @@
   width:80vw;
   float: right;
 }
+/*  ===================================================== */
 @media only screen and (max-width: 1100px) {
   .MeetDavidDiv {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    height: 30vh;
+    /* align-items: center; */
+    /* height: 30vh; */
     width: 100vw;
-    margin-top: 0;
+    margin-top: 100px;
   }
 .windows {
   display: none
@@ -84,6 +85,7 @@
   align-items: center;
   width: 100vw;
   height: 30vh;
+  margin-top: 10px;
 }
 .DavidPortfolioDiv {
   display: flex;
@@ -92,7 +94,13 @@
   width: 100vw;
   height: 30vh;
 }
-#davesPortfolio {
-  /* width: 75vw; */
+#portfoliopic {
+  padding-top: 20px;
+  width: 80vw;
+  height: 20vh;
 }
+}
+/*  ======================================================== */
+@media only screen and (max-width: 600px) {
+
 }
