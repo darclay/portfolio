@@ -1,5 +1,6 @@
 .navigation-div {
   background-color: #002f49b2;
+  height: 150px;
 }
 nav {
   display: flex;

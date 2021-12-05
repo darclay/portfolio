@@ -4,10 +4,12 @@
   align-items: center;
   float: right;
   width: 80vw;
+  height: 400px;
   margin-top: 0;
 }
 #david {
-  width: 60vw;
+  height: 400px;
+  width: auto;
   margin-left: 20px;
   padding-right: -20px;
 }
@@ -17,9 +19,11 @@
   align-items: center;
   float: right;
   width: 80vw;
+  height: 400px;
 }
 #resume {
-  width: 60vw;
+  width: auto;
+  height: 400px;
 }
 .DavidPortfolioDiv {
   display: flex;
@@ -27,9 +31,11 @@
   align-items: center;
   float: right;
   width: 80vw;
+  height: 400px;
 }
 #portfoliopic {
-  width: 60vw;
+  width: auto;
+  height: 350px
 }
 
  #meetDave {
@@ -46,7 +52,7 @@
   left: 0;
   top: 0;
   width: 20vw;
-  height: max-content;
+  height: 1710px;
   opacity: .7;
 }
 .separator {
@@ -54,4 +60,39 @@
   height: 30px;
   width:80vw;
   float: right;
+}
+@media only screen and (max-width: 1100px) {
+  .MeetDavidDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    margin-top: 0;
+  }
+.windows {
+  display: none
+}
+.separator {
+  background-color: #b9f0f2;
+  height: 30px;
+  width:100vw;
+}
+.DavidResumeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+}
+.DavidPortfolioDiv {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+}
+#davesPortfolio {
+  /* width: 75vw; */
+}
 }
