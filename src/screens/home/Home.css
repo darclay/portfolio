@@ -1,4 +1,4 @@
-.MeetDavidDiv {
+/* .MeetDavidDiv {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -26,7 +26,6 @@
 }
 .DavidPortfolioDiv {
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   float: right;
   width: 80vw;
@@ -60,14 +59,12 @@
   height: 30px;
   width:80vw;
   float: right;
-}
+} */
 /*  ===================================================== */
-@media only screen and (max-width: 1100px) {
+/* @media only screen and (max-width: 1100px) {
   .MeetDavidDiv {
     display: flex;
     flex-direction: column-reverse;
-    /* align-items: center; */
-    /* height: 30vh; */
     width: 100vw;
     margin-top: 100px;
   }
@@ -99,8 +96,94 @@
   width: 80vw;
   height: 20vh;
 }
-}
+} */
 /*  ======================================================== */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 
+} */
+.windowDiv {
+  position: fixed;
+  left: 0;
+  width: 20px;
+  height: 500px;
+  opacity: .8;
+}
+.homeDiv {
+  display: flex;
+  flex-direction: column;
+}
+.meetDavidDiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 400px;
+  width: 80%;
+  margin-left: 20%;
+}
+.meetDavidDiv #david {
+  height: 300px;
+}
+.davidResumeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 400px;
+  width: 80%;
+  margin-left: 20%;
+}
+.davidResumeDiv #resume {
+  height: 300px;
+}
+.davidPortfolioDiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 400px;
+  width: 70%;
+  margin-left: 30%;
+}
+.davidPortfolioDiv #portfoliopic {
+  height: 300px;
+}
+hr {
+  height: 30px;
+  width: 100%;
+  background-color: #b9f0f2;
+}
+
+@media (max-width: 1100px) {
+  .meetDavidDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+.windows {
+  display: none
+}
+/* .separator {
+  background-color: #b9f0f2;
+  height: 30px;
+  width:100%;
+} */
+.davidResumeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+.davidPortfolioDiv {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+#portfoliopic {
+  padding-top: 20px;
+  width: 80vw;
+  height: 20vh;
+}
 }

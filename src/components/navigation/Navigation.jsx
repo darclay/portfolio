@@ -1,6 +1,5 @@
 import shield from './photos/barclay_shield.png';
 import { Link } from 'react-router-dom';
-import './Navigation.css';
 import NavLinks from './NavLinks.jsx';
 
 const Navigation = () => {

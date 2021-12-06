@@ -1,4 +1,5 @@
 import './Home.css';
+import { Link } from 'react-router-dom'
 import windows from './photos/windows.jpg';
 import davidPic from './photos/david_pencil_sketch.png';
 import resumePic from './photos/resume.png';
@@ -8,31 +9,37 @@ import Footer from '../../components/footer/Footer.jsx'
 
 const Home = () => {
   return (
-    <div className="HomeDiv">
+    <div className="homeDiv">
         <NavBar />
         
-        <div className="WindowDiv">
-          <img className="windows" src={windows} alt="windows" />
+        <div className="windowDiv">
+          <img className="windows" src={windows} alt="windows" width="300px" />
         </div>
-    
-        <div className="MeetDavidDiv">
+
+      <Link to="meet-dave" style={{ textDecoration: 'none' }}>
+        <div className="meetDavidDiv">
         <img id="david" src={davidPic} alt="david" />
         <h2 id="meetDave">Meet<br/>Dave</h2>
         </div>
+      </Link>
 
         <hr className="separator"/>
 
-        <div className="DavidResumeDiv">
+        <Link to="resume" style={{ textDecoration: 'none'}}>
+        <div className="davidResumeDiv">
         <h2 id="davesResume">Dave's<br/>Resume</h2>
         <img id="resume" src={resumePic} alt="resume" />
         </div>
+        </Link>
 
         <hr className="separator"/>
 
-        <div className="DavidPortfolioDiv">
+        <Link to="projects" style={{ textDecoration: 'none'}}>
+        <div className="davidPortfolioDiv">
         <img id="portfoliopic" src={portfolioPic} alt="portfolio" />
         <h2 id="davesPortfolio">Dave's<br/>Portfolio</h2>
         </div>
+        </Link>
 
         <hr className="separator"/>
 

@@ -1,0 +1,88 @@
+.resumeDiv .resumeTitle {
+  padding-left: 30px;
+}
+.resumeDiv .buttonDiv {
+  text-align: center;
+}
+.resumeDiv .section1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resumeDiv .section2 {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.resumeDiv .section3 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: .75em;
+}
+.resumeDiv .section3 #location1 {
+  text-align: right;
+}
+.resumeDiv .section4 {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.resumeDiv .section5 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: .75em;
+}
+.resumeDiv .section5 #location2 {
+  text-align: right;
+}
+.resumeDiv .section6 {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.resumeDiv .section7 {
+  text-align: center;
+}
+.resumeDiv .section8 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: .75em;
+}
+.resumeDiv .section9 {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.resumeDiv .section10 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: .75em;
+}
+.resumeDiv .section11 {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.resumeDiv .section12 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: .75em;
+}
+.resumeDiv .section13 {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.bold {
+  font-weight: bold;
+}
+

@@ -15,20 +15,26 @@ const Footer = () => {
             <h2 id="letsConnect">LET'S CONNECT</h2>
             
             <section className="connect-links">
+                <a href="https://github.com/darclay" target="_blank">
                 <div id="one">
                 <p id="github">GitHub</p>
                 <img className="footericons" src={githubpic} alt="linkedin" />
                 </div>
+                </a>
                 
+                <a href="https://www.linkedin.com/in/david-gurule-865624212/" target="_blank">
                 <div id="two">
                 <p id="linkedin">Linked</p>
                 <img className="footericons" src={linkedinpic} alt="linkedin" />
                 </div>
+                </a>
 
+                <a href="mailto:davidgurulejr@gmail.com" target="_blank">
                 <div id="three">
                 <p id="mail">Email</p>
                 <img className="footericons" src={mailpic} alt="mail pic" />
                 </div>
+                </a>
             </section>
         </div>
       </div>
