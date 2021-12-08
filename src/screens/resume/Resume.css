@@ -1,12 +1,43 @@
 .resumeDiv .resumeTitle {
   padding-left: 30px;
+  font-family: 'Playfair Display', serif;
 }
 .resumeDiv .buttonDiv {
   text-align: center;
 }
+.resumeDiv .buttonDiv .downloadButton {
+  background-color: #002f49b2;
+  text-decoration: none;
+  color: white;
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  transition: all 1s ease-out;
+  transition: background-color 0.5s ease;
+}
+.resumeDiv .buttonDiv .downloadButton:hover {
+  transform: scale(1.1);
+}
+.resumeDiv .buttonDiv .downloadButton:active {
+  background-color: white; 
+}
 .resumeDiv .section1 {
   display: flex;
   justify-content: space-evenly;
+}
+.resumeDiv .section1 a {
+  text-decoration: none;
+  color: black;
+  transition: all ease-out 1s;
+}
+.resumeDiv .section1 #linked:hover {
+  color: purple;
+  transform: scale(1.1);
+}
+.resumeDiv .section1 #email:hover {
+  color: purple;
+  transform: scale(1.1);
 }
 .resumeDiv .section2 {
   text-align: center;

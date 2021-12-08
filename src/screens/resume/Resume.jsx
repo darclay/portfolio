@@ -1,29 +1,31 @@
 import './Resume.css';
-import { Link, Route, Routes } from 'react-router-dom';
-import { Document } from 'react-pdf'
 import NavBar from '../../components/navigation/NavBar.jsx'
 import Footer from '../../components/footer/Footer.jsx'
 
 
-const handleDownload = () => {
-  console.log('download button clicked')
-}
-
 
 const Resume = () => {
+
+  const handleDownload = () => {
+    console.log("button clicked");
+  }
+
+
   return (
     <div className="resumeDiv">
         <NavBar />
         
         <h2 className="resumeTitle">Resume</h2>
         <div className="buttonDiv">
-        <button className="downloadButton" onClick={handleDownload}>DOWNLOAD</button>
+          <a href="https://drive.google.com/file/d/1llpNp8NaOqMdIBOSE8nFednW3Aja5hv4/view?usp=sharing" target="_blank">
+              <button className="downloadButton" onClick={handleDownload}>DOWNLOAD</button>
+          </a> 
         </div>
         
         <section className="section1">
-            <p>DAVIDGURULEJR@GMAIL.COM</p>
-            <p>COLORADO SPRINGS, CO 80921</p>
-            <p>LINKEDIN</p>
+            <a href="mailto:davidgurulejr@gmail.com" id="email">DAVIDGURULEJR@GMAIL.COM</a>
+            <a href="">COLORADO SPRINGS, CO 80921</a>
+            <a href="https://www.linkedin.com/in/david-gurule-865624212/" target="_blank" id="linked">LINKEDIN</a>
         </section>
 {/* ============================== NAME AND TITLE ================================================== */}
         <section className="section2">

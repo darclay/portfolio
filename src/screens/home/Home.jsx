@@ -11,10 +11,6 @@ const Home = () => {
   return (
     <div className="homeDiv">
         <NavBar />
-        
-        <div className="windowDiv">
-          <img className="windows" src={windows} alt="windows" width="300px" />
-        </div>
 
       <Link to="meet-dave" style={{ textDecoration: 'none' }}>
         <div className="meetDavidDiv">

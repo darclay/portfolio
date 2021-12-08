@@ -7,7 +7,7 @@
 }
 .NavBar .Navigation .nav-links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding-top: 10px;
   padding-right: 40px;
   list-style-type: none;
@@ -15,7 +15,13 @@
 }
 .NavBar .Navigation .nav-links li {
   color: black;
-  padding-left: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Gurajada', serif;
+  transition: all 1s ease-out;
+}
+.NavBar .Navigation .nav-links li:hover {
+  transform: scale(1.2);
 }
 .NavBar .Navigation .shieldName {
   display: flex;
@@ -25,6 +31,10 @@
 }
 .NavBar .Navigation .shieldName #shield {
   height: 100px;
+  transition: all 1s ease-out;
+}
+.NavBar .Navigation .shieldName #shield:hover {
+  transform: scale(1.2);
 }
 .NavBar .Navigation .shieldName #david-title {
   font-family: 'Playfair Display', serif;

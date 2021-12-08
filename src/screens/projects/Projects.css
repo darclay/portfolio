@@ -1,0 +1,61 @@
+.projectsTitle {
+  padding-left: 30px;
+  font-family: 'Playfair Display', serif;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .everfreeDiv {
+  display: flex;
+  align-items: center;
+
+}
+.content .collisionCourseDiv {
+  display: flex;
+  align-items: center;
+}
+.content .poopetratorDiv {
+  display: flex;
+  align-items: center;
+}
+
+.content .img1 {
+  height: 300px;
+  padding: 5px;
+}
+.content .img2 {
+  height: 300px;
+  padding: 5px;
+}
+
+
+
+.content .links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.content .firstLink {
+  display: flex;
+  align-items: center;
+}
+.content .secondLink {
+  display: flex;
+  align-items: center;
+}
+.wwwLogo {
+  height: 40px;
+}
+.githubLogo {
+  height: 40px;
+}
+
+hr {
+  height: 30px;
+  width: 100%;
+  background-color: #b9f0f2;
+}
