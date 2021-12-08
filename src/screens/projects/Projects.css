@@ -23,11 +23,11 @@
 }
 
 .content .img1 {
-  height: 300px;
+  width: 70%;
   padding: 5px;
 }
 .content .img2 {
-  height: 300px;
+  width: 25%;
   padding: 5px;
 }
 
@@ -58,4 +58,19 @@ hr {
   height: 30px;
   width: 100%;
   background-color: #b9f0f2;
+}
+
+@media (max-width: 800px) {
+  .content .everfreeDiv {
+    flex-direction: column;
+  }
+  .content .links {
+    flex-direction: column;
+  }
+  .content .collisionCourseDiv {
+    flex-direction: column;
+  }
+  .content .poopetratorDiv {
+    flex-direction: column;
+  }
 }

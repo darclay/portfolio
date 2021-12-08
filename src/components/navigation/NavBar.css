@@ -84,7 +84,7 @@
 .NavBar ul {
   display: flex;
   flex-direction: column;
-  background-color: #002f4952;
+  background-color: #ffffff;
   font-family: 'Playfair Display', serif;
   position: absolute;
   top: 80px;

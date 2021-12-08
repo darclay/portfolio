@@ -94,3 +94,11 @@
   margin-left: 0;
 }
 }
+
+@media (max-width: 600px) {
+  .connect-links {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
