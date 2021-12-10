@@ -44,3 +44,6 @@ Footer {
   position: absolute;
   top: 5000px;
 }
+.MeetDiv .container1 .daveBio .daveBioPara {
+  text-align: justify;
+}
