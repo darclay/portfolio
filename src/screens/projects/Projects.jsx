@@ -21,7 +21,6 @@ const Projects = () => {
           
 
           <div className="content">
-{/* NEW----------------------------------------------- */}
               <div className="hekatesDiv">
                   <img className="img1" src={hekatesDesktop} alt="everfree site"/>
                   <img className="img2" src={hekatesMobile} alt="everfree mobile site"/>
@@ -39,7 +38,6 @@ const Projects = () => {
               </div>
 
               <hr className="separator"/>
-{/* NEW ---------------------------------------------- */}
               <div className="everfreeDiv">
                   <img className="img1" src={everfreeDesktop} alt="everfree site"/>
                   <img className="img2" src={everfreeMobile} alt="everfree mobile site"/>
