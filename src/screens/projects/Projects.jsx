@@ -6,6 +6,8 @@ import poopetratorDesktop from './photos/poopetrator_desktop.png';
 import poopetratorMobile from './photos/poopetrator_mobile.png';
 import everfreeDesktop from './photos/everfree_desktop.png';
 import everfreeMobile from './photos/everfree_mobile.png';
+import hekatesDesktop from './photos/hekates_bees_desktop.png';
+import hekatesMobile from './photos/hekates_bees_mobile.png';
 import wwwLogo from './photos/www.png';
 import githubLogo from './photos/github.png';
 import NavBar from '../../components/navigation/NavBar.jsx'
@@ -19,6 +21,25 @@ const Projects = () => {
           
 
           <div className="content">
+{/* NEW----------------------------------------------- */}
+              <div className="hekatesDiv">
+                  <img className="img1" src={hekatesDesktop} alt="everfree site"/>
+                  <img className="img2" src={hekatesMobile} alt="everfree mobile site"/>
+              </div>
+
+              <div className="links">
+                  <a href="https://hekates-bees.netlify.app/" className="firstLink" target="_blank">
+                    <h3>go to site</h3>
+                    <img className="wwwLogo" src={wwwLogo} alt="www logo"/>
+                  </a>
+                  <a href="https://github.com/darclay/hekates_bees" className="secondLink" target="_blank">  
+                    <h3>go to code</h3>
+                    <img className="githubLogo" src={githubLogo} alt="github logo"/>
+                  </a>
+              </div>
+
+              <hr className="separator"/>
+{/* NEW ---------------------------------------------- */}
               <div className="everfreeDiv">
                   <img className="img1" src={everfreeDesktop} alt="everfree site"/>
                   <img className="img2" src={everfreeMobile} alt="everfree mobile site"/>
