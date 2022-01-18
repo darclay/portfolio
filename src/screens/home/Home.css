@@ -27,6 +27,9 @@
   justify-content: center;
   height: 400px;
 }
+.homeDiv .davidProjectDiv .projectPicsDivMobile {
+  display: none;
+}
 /*--------------------------*/
 .homeDiv .meetDavidDiv #davidPic {
   height: 80%;
@@ -62,9 +65,21 @@
   .homeDiv .davidProjectDiv {
     flex-direction: column;
   }
-  .homeDiv .davidResumeDiv #resumePic {
-    /* width: 70%; */
+}
+@media (max-width: 500px) {
+  .homeDiv .davidProjectDiv {
+    height: auto;
   }
-  .homeDiv .davidProjectDiv .projectPicsDiv .projectPics {
+  .homeDiv .davidProjectDiv .projectPicsDiv {
+    display: none;
+  }
+  .homeDiv .davidProjectDiv .projectPicsDivMobile {
+    display: flex;
+  }
+  .homeDiv .davidProjectDiv .projectPicsDivMobile .projectPics {
+    height: 300px;
+  }
+  .homeDiv .davidResumeDiv #resumePic {
+    height: 300px;
   }
 }

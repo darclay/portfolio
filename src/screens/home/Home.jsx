@@ -1,6 +1,5 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
-import windows from "./photos/windows.jpg";
 import davidPic from "./photos/david_gurule.png";
 import resumePic from "./photos/resume.png";
 import portfolioPic from "../projects/photos/hekates_bees_mobile.png";
@@ -43,6 +42,15 @@ const Home = () => {
             />
             <img className="projectPics" src={everfreeMobile} alt="portfolio" />
           </div>
+          <div className="projectPicsDivMobile">
+            <img className="projectPics" src={portfolioPic} alt="portfolio" />
+            <img
+              className="projectPics"
+              src={collisionCourseMobile}
+              alt="portfolio"
+            />
+          </div>
+
           <h2 className="homeSubHeading">Projects</h2>
         </div>
       </Link>
