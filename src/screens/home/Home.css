@@ -1,76 +1,70 @@
 .homeDiv {
   display: flex;
   flex-direction: column;
+  background-color: rgb(89, 110, 148);
 }
-.meetDavidDiv {
+.homeDiv .meetDavidDiv {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   height: 400px;
 }
-.meetDavidDiv #david {
-  height: 300px;
-}
-.meetDavidDiv #meetDave {
-  font-family: 'Playfair Display', serif;
-}
-.davidResumeDiv {
+.homeDiv .davidResumeDiv {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   height: 400px;
 }
-.davidResumeDiv #resume {
-  height: 300px;
-}
-.davidResumeDiv #davesResume {
-  font-family: 'Playfair Display', serif;
-}
-.davidPortfolioDiv {
+.homeDiv .davidProjectDiv {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   height: 400px;
 }
-.davidPortfolioDiv #portfoliopic {
-  height: 300px;
-  width: 450px;
+.homeDiv .davidProjectDiv .projectPicsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
 }
-.davidPortfolioDiv #davesPortfolio {
-  padding-left: 20px;
-  font-family: 'Playfair Display', serif;
+/*--------------------------*/
+.homeDiv .meetDavidDiv #davidPic {
+  height: 80%;
 }
-hr {
-  height: 30px;
+.homeDiv .davidResumeDiv #resumePic {
+  height: 80%;
+}
+.homeDiv .davidProjectDiv .projectPicsDiv .projectPics {
+  height: 80%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.separator1 {
   width: 100%;
-  background-color: #b9f0f2;
+  height: 2px;
+  background-color: black;
+  margin: 0;
+  border: 0;
 }
-
-@media (max-width: 1100px) {
-  .meetDavidDiv {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    width: 100%;
-    margin: 0;
+.homeSubHeading {
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/*-------------------------*/
+@media (max-width: 800px) {
+  .homeDiv .meetDavidDiv {
+    flex-direction: column;
   }
-.davidResumeDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 0;
-}
-.davidPortfolioDiv {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  width: 100%;
-  margin: 0;
-}
-#portfoliopic {
-  padding-top: 20px;
-  width: 80vw;
-  height: 20vh;
-}
+  .homeDiv .davidResumeDiv {
+    flex-direction: column;
+  }
+  .homeDiv .davidProjectDiv {
+    flex-direction: column;
+  }
+  .homeDiv .davidResumeDiv #resumePic {
+    /* width: 70%; */
+  }
+  .homeDiv .davidProjectDiv .projectPicsDiv .projectPics {
+  }
 }

@@ -12,12 +12,13 @@
   padding-right: 40px;
   list-style-type: none;
   margin-bottom: 0;
+  margin-top: 0;
 }
 .NavBar .Navigation .nav-links li {
   color: black;
   padding-left: 40px;
   padding-right: 40px;
-  font-family: 'Gurajada', serif;
+  font-family: "Gurajada", serif;
   transition: all 1s ease-out;
 }
 .NavBar .Navigation .nav-links li:hover {
@@ -37,20 +38,17 @@
   transform: scale(1.2);
 }
 .NavBar .Navigation .shieldName #david-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   margin-top: 10px;
   color: #b9f0f2;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 .NavBar .Navigation .shieldName #subtitle {
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Gurajada', serif;
+  font-family: "Gurajada", serif;
   color: black;
   text-shadow: none;
   margin-bottom: 0;
@@ -58,46 +56,43 @@
 }
 /* ========================================= */
 @media (max-width: 600px) {
-
-.NavBar .Navigation {
-  display: none;
-}
-.NavBar .MobileNavigation {
-  background-color: #002f49b2;
-  display: flex;
-  align-items: center;
-  height: 80px;
-}
-.NavBar .MobileNavigation .mobTitle {
-  font-family: 'Playfair Display', serif;
-  color: black;
-  padding-left: 10%;
-  width: 300px;
-  
-}
-.NavBar .MobileNavigation .Hamburger {
-  color: black;
-  position: absolute;
-  right: 5%;
-  cursor: pointer;
-}
-.NavBar ul {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  font-family: 'Playfair Display', serif;
-  position: absolute;
-  top: 80px;
-  right: 0;
-  margin-top: 0;
-  padding-right: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  list-style-type: none;
-
-}
-.NavBar li {
-  padding-bottom: 20px;
-  text-decoration: none;
-}
+  .NavBar .Navigation {
+    display: none;
+  }
+  .NavBar .MobileNavigation {
+    background-color: #002f49b2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  .NavBar .MobileNavigation .mobTitle {
+    font-family: "Playfair Display", serif;
+    color: black;
+    padding-left: 10%;
+    width: 300px;
+  }
+  .NavBar .MobileNavigation .Hamburger {
+    color: black;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+  .NavBar ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-family: "Playfair Display", serif;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    margin-top: 0;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    list-style-type: none;
+  }
+  .NavBar li {
+    padding-bottom: 20px;
+    text-decoration: none;
+  }
 }

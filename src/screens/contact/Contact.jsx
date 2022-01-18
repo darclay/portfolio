@@ -1,14 +1,14 @@
-import './Contact.css';
-import { Link } from 'react-router-dom';
-import linkedinpic from './photos/linkedinpic.png';
-import githubpic from './photos/githubpic.png';
-import shield from './photos/barclay_shield.png';
-import NavBar from '../../components/navigation/NavBar.jsx'
-import Footer from '../../components/footer/Footer.jsx'
+import "./Contact.css";
+import { Link } from "react-router-dom";
+import linkedinpic from "./photos/linkedinpic.png";
+import githubpic from "./photos/githubpic.png";
+import shield from "./photos/barclay_shield.png";
+import NavBar from "../../components/navigation/NavBar.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 
 const handleChange = () => {
-  console.log('info added');
-}
+  console.log("info added");
+};
 
 const Contact = () => {
   return (
@@ -39,13 +39,21 @@ const Contact = () => {
                 </a>
             </section> */}
 
-      <hr className="separator"/>
-      
+      <hr className="separator3" />
+
       <div className="forms">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScU44xptFY097OX7BNt62SaQru-8DgzzbxQuNkDkt-c7bF04w/viewform?embedded=true"
+          width="80%"
+          height="1000px"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
 
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScU44xptFY097OX7BNt62SaQru-8DgzzbxQuNkDkt-c7bF04w/viewform?embedded=true" width="80%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-            {/* <form className="reviewForm">
+        {/* <form className="reviewForm">
             <h3>KNOW DAVE?</h3>
             <h5>Please, add a review or encouraging words.</h5>
             <input
@@ -73,16 +81,15 @@ const Contact = () => {
             </form> */}
       </div>
       <div className="bottomBackHome">
-      <Link className="bottomLink" to="/">
-      <p>Back to Home</p>
-      <img id="shield" src={shield} alt="shield"/>
-      </Link>
+        <Link className="bottomLink" to="/">
+          <p>Back to Home</p>
+          <img id="shield" src={shield} alt="shield" />
+        </Link>
       </div>
 
-      
       <Footer />
     </div>
   );
-}
+};
 
 export default Contact;

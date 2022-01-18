@@ -17,8 +17,7 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-contactDavidEmail
-.contactDiv .forms h3 {
+contactDavidEmail .contactDiv .forms h3 {
   text-align: center;
 }
 .forms {
@@ -29,18 +28,13 @@ contactDavidEmail
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%
+  width: 50%;
 }
 .reviewForm {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
-}
-hr {
-  height: 30px;
-  width: 100%;
-  background-color: #b9f0f2;
 }
 .contactDavidEmail {
   text-align: center;
@@ -68,4 +62,3 @@ iframe {
 .bottomLink:hover {
   transform: scale(1.2);
 }
-

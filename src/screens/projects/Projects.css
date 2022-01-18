@@ -1,6 +1,6 @@
 .projectsTitle {
   padding-left: 30px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .content {
   display: flex;
@@ -33,8 +33,6 @@
   padding: 5px;
 }
 
-
-
 .content .links {
   display: flex;
   align-items: center;
@@ -56,10 +54,10 @@
   height: 40px;
 }
 
-hr {
-  height: 30px;
+hr .separator2 {
+  height: 15px;
   width: 100%;
-  background-color: #b9f0f2;
+  background-color: black;
 }
 
 @media (max-width: 800px) {
