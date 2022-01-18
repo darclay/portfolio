@@ -65,6 +65,12 @@
   .homeDiv .davidProjectDiv {
     flex-direction: column;
   }
+  .homeDiv .davidProjectDiv .projectPicsDiv .projectPics {
+    height: 250px;
+  }
+  .homeSubHeading {
+    padding-bottom: 20px;
+  }
 }
 @media (max-width: 500px) {
   .homeDiv .davidProjectDiv {
@@ -75,6 +81,8 @@
   }
   .homeDiv .davidProjectDiv .projectPicsDivMobile {
     display: flex;
+    height: 400px;
+    align-items: center;
   }
   .homeDiv .davidProjectDiv .projectPicsDivMobile .projectPics {
     height: 300px;
