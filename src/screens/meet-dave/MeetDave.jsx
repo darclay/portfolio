@@ -1,13 +1,13 @@
 import "./MeetDave.css";
 import { Link, Route, Routes } from "react-router-dom";
 import fam1 from "./photos/family.jpg";
-import riot1 from "./photos/riot1.jpg";
 import becAndDogs from "./photos/becAndDogs.jpg";
 import recruiter from "./photos/recruiter.png";
 import schoolShooting from "./photos/shooting.jpg";
 import hiker from "./photos/hiker.jpg";
 import familyHiking from "./photos/familyHiking.jpg";
 import NavBar from "../../components/navigation/NavBar.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 
 const MeetDave = () => {
   return (
@@ -18,6 +18,13 @@ const MeetDave = () => {
         <div className="daveBio">
           <h2>Meet Dave</h2>
           <img id="fam1" src={fam1} alt="family photo" />
+          <div className="mediaContainer">
+            <img
+              id="becAndDogs"
+              src={becAndDogs}
+              alt="man and women with dogs"
+            />
+          </div>
           <p className="daveBioPara">
             Good Day and thank you for visiting my site and learning a little
             bit more about me. My name is Dave and I live between the two
@@ -67,11 +74,20 @@ const MeetDave = () => {
             system.
             <br />
             <br />
-            <img
-              id="recruiter"
-              src={recruiter}
-              alt="recruiter and man talking"
-            />
+            <div className="middlePicsDiv">
+              <img
+                className="middlePics"
+                id="recruiter"
+                src={recruiter}
+                alt="recruiter and man talking"
+              />
+              <img
+                className="middlePics"
+                id="schoolShooting"
+                src={schoolShooting}
+                alt="police officers"
+              />
+            </div>
             After successfully completing the accreditation and assisting with
             CSP's Tri-Arc Accreditation, which I believe was the second state
             agency in the country to receive such accolades, I was asked to take
@@ -137,27 +153,18 @@ const MeetDave = () => {
             Thanks, Dave
           </p>
         </div>
-
-        <div className="pic1to3Div">
-          <img id="riot1" src={riot1} alt="riot cops" />
-          <img id="becAndDogs" src={becAndDogs} alt="man and women with dogs" />
-        </div>
       </div>
 
       <div className="container2">
-        <div className="allOtherPics">
-          <img id="schoolShooting" src={schoolShooting} alt="police officers" />
-          <img id="hiker" src={hiker} alt="hiker" width="50%" />
-          <img
-            id="familyHiking"
-            src={familyHiking}
-            alt="family hiking"
-            width="50%"
-          />
-        </div>
-
-        {/* <Footer /> */}
+        <img className="bottomPics" id="hiker" src={hiker} alt="hiker" />
+        <img
+          className="bottomPics"
+          id="familyHiking"
+          src={familyHiking}
+          alt="family hiking"
+        />
       </div>
+      <Footer />
     </div>
   );
 };

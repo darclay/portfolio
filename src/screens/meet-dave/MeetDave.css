@@ -1,48 +1,78 @@
-.MeetDiv .container1 {
+.MeetDiv {
   display: flex;
+  flex-direction: column;
+  background-color: rgb(89, 110, 148);
+}
+.MeetDiv .container1 .daveBio .daveBioPara {
+  text-align: justify;
 }
 .MeetDiv .container1 .daveBio {
   margin-left: 5%;
   margin-right: 5%;
 }
-.MeetDiv .container1 .pic1to3Div {
-  display: none;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%; */
-}
 .MeetDiv .container1 .daveBio #fam1 {
   width: 200px;
   float: right;
+  padding-left: 20px;
+}
+.MeetDiv .container1 .daveBio #becAndDogs {
+  width: 300px;
+  float: right;
+  clear: right;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .MeetDiv .container1 .daveBio #recruiter {
   width: 300px;
   float: left;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
-.MeetDiv .allOtherPics #schoolShooting {
-  position: absolute;
-  left: 0px;
-  margin-top: 275px;
+.MeetDiv .container1 .daveBio #schoolShooting {
+  width: 300px;
+  float: left;
+  clear: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
-.MeetDiv .allOtherPics #hiker {
-  position: absolute;
-  right: 0px;
-  /* transform: scale(0.5); */
-  z-index: -1;
-  margin-top: 320px;
+.MeetDiv .container2 {
+  display: flex;
+  justify-content: center;
 }
-.MeetDiv .allOtherPics #familyHiking {
-  position: absolute;
-  right: 0px;
-  /* transform: scale(0.5); */
-  left: 0px;
-  margin-top: 619px;
+.MeetDiv .container2 .bottomPics {
+  height: 300px;
+  padding: 20px;
 }
-Footer {
-  position: absolute;
-  top: 5000px;
+/* --------------------------------- */
+@media (max-width: 700px) {
+  .MeetDiv .container2 {
+    flex-direction: column;
+  }
+  .MeetDiv .container2 .bottomPics {
+    height: auto;
+    padding: 20px;
+  }
+  .MeetDiv .container1 .daveBio #fam1 {
+    display: none;
+  }
+  .MeetDiv .container1 .daveBio .mediaContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .MeetDiv .container1 .daveBio #becAndDogs {
+    width: 250px;
+    float: none;
+    padding: 0px;
+  }
+  .MeetDiv .container1 .daveBio .middlePicsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-.MeetDiv .container1 .daveBio .daveBioPara {
-  text-align: justify;
+@media (max-width: 300px) {
+  .MeetDiv .container1 .daveBio .middlePicsDiv .middlePics {
+    display: none;
+  }
 }
