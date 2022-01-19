@@ -1,64 +1,14 @@
-.contactDiv img {
-  height: 40px;
+.contactDiv {
+  background-color: rgb(89, 110, 148);
 }
-.contactDiv .topLinks {
+.contactDiv .contactDavidEmail {
+  text-align: center;
+}
+.contactDiv .forms {
   display: flex;
   justify-content: center;
 }
-.contactDiv .link1 {
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.contactDiv .link2 {
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-contactDavidEmail .contactDiv .forms h3 {
-  text-align: center;
-}
-.forms {
-  display: flex;
-  justify-content: center;
-}
-.contactMeForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-}
-.reviewForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-}
-.contactDavidEmail {
-  text-align: center;
-}
-iframe {
-  background-color: #b9f0f286;
+.contactDiv .forms iframe {
+  background-color: rgb(89, 110, 148);
   align-content: center;
-}
-.bottomBackHome {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.bottomLink {
-  text-align: center;
-  text-decoration: none;
-  color: #b9f0f2;
-  background-color: #002f49b2;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border-radius: 5px;
-  transition: all 1s ease-out;
-}
-.bottomLink:hover {
-  transform: scale(1.2);
 }
