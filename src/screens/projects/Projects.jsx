@@ -20,133 +20,135 @@ const Projects = () => {
       <h2 className="projectsTitle">PROJECTS</h2>
 
       <div className="content">
-        <div className="hekatesDiv">
-          <img className="img1" src={hekatesDesktop} alt="everfree site" />
-          <img
-            className="img2"
-            src={hekatesMobile}
-            alt="everfree mobile site"
-          />
+        {/* ------------------------------------------ */}
+        <div className="hoverEffect1">
+          <div className="hekatesDiv">
+            <img className="img1" src={hekatesDesktop} alt="everfree site" />
+            <img
+              className="img2"
+              src={hekatesMobile}
+              alt="everfree mobile site"
+            />
+          </div>
+          <div className="links">
+            <a
+              href="https://hekates-bees.netlify.app/"
+              className="firstLink"
+              target="_blank"
+            >
+              <h3>go to site</h3>
+              <img className="wwwLogo" src={wwwLogo} alt="www logo" />
+            </a>
+            <a
+              href="https://github.com/darclay/hekates_bees"
+              className="secondLink"
+              target="_blank"
+            >
+              <h3>go to code</h3>
+              <img className="githubLogo" src={githubLogo} alt="github logo" />
+            </a>
+          </div>
+          <hr className="separator2" />
         </div>
-
-        <div className="links">
-          <a
-            href="https://hekates-bees.netlify.app/"
-            className="firstLink"
-            target="_blank"
-          >
-            <h3>go to site</h3>
-            <img className="wwwLogo" src={wwwLogo} alt="www logo" />
-          </a>
-          <a
-            href="https://github.com/darclay/hekates_bees"
-            className="secondLink"
-            target="_blank"
-          >
-            <h3>go to code</h3>
-            <img className="githubLogo" src={githubLogo} alt="github logo" />
-          </a>
+        {/* ------------------------------------------ */}
+        <div className="hoverEffect2">
+          <div className="everfreeDiv">
+            <img className="img1" src={everfreeDesktop} alt="everfree site" />
+            <img
+              className="img2"
+              src={everfreeMobile}
+              alt="everfree mobile site"
+            />
+          </div>
+          <div className="links">
+            <a
+              href="https://everfree-outdoors.netlify.app/"
+              className="firstLink"
+              target="_blank"
+            >
+              <h3>go to site</h3>
+              <img className="wwwLogo" src={wwwLogo} alt="www logo" />
+            </a>
+            <a
+              href="https://github.com/darclay/EverFree-Outdoors"
+              className="secondLink"
+              target="_blank"
+            >
+              <h3>go to code</h3>
+              <img className="githubLogo" src={githubLogo} alt="github logo" />
+            </a>
+          </div>
+          <hr className="separator2" />
         </div>
-
-        <hr className="separator2" />
-        <div className="everfreeDiv">
-          <img className="img1" src={everfreeDesktop} alt="everfree site" />
-          <img
-            className="img2"
-            src={everfreeMobile}
-            alt="everfree mobile site"
-          />
+        {/* ------------------------------------------ */}
+        <div className="hoverEffect3">
+          <div className="collisionCourseDiv">
+            <img
+              className="img1"
+              src={collisionCourseDesktop}
+              alt="collision course site"
+            />
+            <img
+              className="img2"
+              src={collisionCourseMobile}
+              alt="collision course mobile site"
+            />
+          </div>
+          <div className="links">
+            <a
+              href="https://collision-course.netlify.app/"
+              className="firstLink"
+              target="_blank"
+            >
+              <h3>go to site</h3>
+              <img className="wwwLogo" src={wwwLogo} alt="www logo" />
+            </a>
+            <a
+              href="https://github.com/darclay/COLLISION-COURSE"
+              className="secondLink"
+              target="_blank"
+            >
+              <h3>go to code</h3>
+              <img className="githubLogo" src={githubLogo} alt="github logo" />
+            </a>
+          </div>
+          <hr className="separator2" />
         </div>
+        {/* ------------------------------------------ */}
+        <div className="hoverEffect4">
+          <div className="poopetratorDiv">
+            <img
+              className="img1"
+              src={poopetratorDesktop}
+              alt="poopetrator site"
+            />
+            <img
+              className="img2"
+              src={poopetratorMobile}
+              alt="poopetrator mobile site"
+            />
+          </div>
 
-        <div className="links">
-          <a
-            href="https://everfree-outdoors.netlify.app/"
-            className="firstLink"
-            target="_blank"
-          >
-            <h3>go to site</h3>
-            <img className="wwwLogo" src={wwwLogo} alt="www logo" />
-          </a>
-          <a
-            href="https://github.com/darclay/EverFree-Outdoors"
-            className="secondLink"
-            target="_blank"
-          >
-            <h3>go to code</h3>
-            <img className="githubLogo" src={githubLogo} alt="github logo" />
-          </a>
+          <div className="links">
+            <a
+              href="https://poopetrator.netlify.app/"
+              className="firstLink"
+              target="_blank"
+            >
+              <h3>go to site</h3>
+              <img className="wwwLogo" src={wwwLogo} alt="www logo" />
+            </a>
+            <a
+              href="https://github.com/darclay/poopetrator"
+              className="secondLink"
+              target="_blank"
+            >
+              <h3>go to code</h3>
+              <img className="githubLogo" src={githubLogo} alt="github logo" />
+            </a>
+          </div>
         </div>
-
-        <hr className="separator2" />
-
-        <div className="collisionCourseDiv">
-          <img
-            className="img1"
-            src={collisionCourseDesktop}
-            alt="collision course site"
-          />
-          <img
-            className="img2"
-            src={collisionCourseMobile}
-            alt="collision course mobile site"
-          />
-        </div>
-
-        <div className="links">
-          <a
-            href="https://collision-course.netlify.app/"
-            className="firstLink"
-            target="_blank"
-          >
-            <h3>go to site</h3>
-            <img className="wwwLogo" src={wwwLogo} alt="www logo" />
-          </a>
-
-          <a
-            href="https://github.com/darclay/COLLISION-COURSE"
-            className="secondLink"
-            target="_blank"
-          >
-            <h3>go to code</h3>
-            <img className="githubLogo" src={githubLogo} alt="github logo" />
-          </a>
-        </div>
-
-        <hr className="separator" />
-
-        <div className="poopetratorDiv">
-          <img
-            className="img1"
-            src={poopetratorDesktop}
-            alt="poopetrator site"
-          />
-          <img
-            className="img2"
-            src={poopetratorMobile}
-            alt="poopetrator mobile site"
-          />
-        </div>
-
-        <div className="links">
-          <a
-            href="https://poopetrator.netlify.app/"
-            className="firstLink"
-            target="_blank"
-          >
-            <h3>go to site</h3>
-            <img className="wwwLogo" src={wwwLogo} alt="www logo" />
-          </a>
-          <a
-            href="https://github.com/darclay/poopetrator"
-            className="secondLink"
-            target="_blank"
-          >
-            <h3>go to code</h3>
-            <img className="githubLogo" src={githubLogo} alt="github logo" />
-          </a>
-        </div>
-
-        <hr className="separator" />
+        {/* ------------------------------------------- */}
       </div>
       <Footer />
     </div>

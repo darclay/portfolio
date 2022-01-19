@@ -1,49 +1,54 @@
-.projectsTitle {
-  padding-left: 30px;
-  font-family: "Playfair Display", serif;
+.ProjectsDiv {
+  background-color: rgb(89, 110, 148);
 }
-.content {
+.ProjectsDiv .projectsTitle {
+  padding-left: 30px;
+}
+.ProjectsDiv .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.content .hekatesDiv {
+.ProjectsDiv .content .hekatesDiv {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.content .everfreeDiv {
+.ProjectsDiv .content .everfreeDiv {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.content .collisionCourseDiv {
+.ProjectsDiv .content .collisionCourseDiv {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.content .poopetratorDiv {
+.ProjectsDiv .content .poopetratorDiv {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.content .img1 {
+.ProjectsDiv .content .img1 {
   width: 70%;
   padding: 5px;
 }
-.content .img2 {
+.ProjectsDiv .content .img2 {
   width: 25%;
   padding: 5px;
 }
-
-.content .links {
+.ProjectsDiv .content .links {
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
 }
-.content .firstLink {
+.ProjectsDiv .content .firstLink {
   display: flex;
   align-items: center;
 }
-.content .secondLink {
+.ProjectsDiv .content .secondLink {
   display: flex;
   align-items: center;
 }
@@ -53,13 +58,42 @@
 .githubLogo {
   height: 40px;
 }
-
-hr .separator2 {
-  height: 15px;
+.separator2 {
   width: 100%;
+  height: 2px;
   background-color: black;
+  margin: 0;
+  border: 0;
 }
-
+.ProjectsDiv .content .hoverEffect1 {
+  padding-top: 20px;
+  transition: all 1s;
+}
+.ProjectsDiv .content .hoverEffect1:hover {
+  background-color: rgb(49, 45, 45);
+}
+.ProjectsDiv .content .hoverEffect2 {
+  padding-top: 20px;
+  transition: all 1s;
+}
+.ProjectsDiv .content .hoverEffect2:hover {
+  background-color: rgb(49, 45, 45);
+}
+.ProjectsDiv .content .hoverEffect3 {
+  padding-top: 20px;
+  transition: all 1s;
+}
+.ProjectsDiv .content .hoverEffect3:hover {
+  background-color: rgb(49, 45, 45);
+}
+.ProjectsDiv .content .hoverEffect4 {
+  padding-top: 20px;
+  transition: all 1s;
+}
+.ProjectsDiv .content .hoverEffect4:hover {
+  background-color: rgb(49, 45, 45);
+}
+/* -------------------------------------------------- */
 @media (max-width: 800px) {
   .content .hekatesDiv {
     flex-direction: column;
@@ -75,5 +109,8 @@ hr .separator2 {
   }
   .content .poopetratorDiv {
     flex-direction: column;
+  }
+  .content .img2 {
+    display: none;
   }
 }

@@ -28,7 +28,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  /* height: 200px; */
 }
 .NavBar .Navigation .shieldName #shield {
   height: 100px;
@@ -60,7 +59,7 @@
     display: none;
   }
   .NavBar .MobileNavigation {
-    background-color: #002f49b2;
+    background-color: #1b4160;
     display: flex;
     align-items: center;
     height: 80px;

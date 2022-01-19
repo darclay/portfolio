@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   height: 400px;
-  transition: all 1s ease-out;
+  transition: all 1s;
 }
 .homeDiv .meetDavidDiv:hover {
   background-color: black;
@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   height: 400px;
-  transition: all 1s ease-out;
+  transition: all 1s;
 }
 .homeDiv .davidResumeDiv:hover {
   background-color: black;
@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: center;
   height: 400px;
-  transition: all 1s ease-out;
+  transition: all 1s;
 }
 .homeDiv .davidProjectDiv:hover {
   background-color: black;
