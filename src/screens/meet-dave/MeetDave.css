@@ -1,25 +1,24 @@
-.MeetDiv {
-  /* display: flex; */
-  /* flex-direction: column; */
-}
 .MeetDiv .container1 {
   display: flex;
 }
 .MeetDiv .container1 .daveBio {
-  width: 50%;
   margin-left: 5%;
   margin-right: 5%;
 }
 .MeetDiv .container1 .pic1to3Div {
-  display: flex;
+  display: none;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 50%;
+  width: 50%; */
 }
-.MeetDiv .allOtherPics #recruiter {
-  position: absolute;
-  right: 50px;
-  margin-top: -70px;
+.MeetDiv .container1 .daveBio #fam1 {
+  width: 200px;
+  float: right;
+}
+.MeetDiv .container1 .daveBio #recruiter {
+  width: 300px;
+  float: left;
 }
 .MeetDiv .allOtherPics #schoolShooting {
   position: absolute;

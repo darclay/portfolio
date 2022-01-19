@@ -6,15 +6,13 @@ const Navigation = () => {
   return (
     <nav className="Navigation">
       <NavLinks />
-      <Link to="/">
-        <div className="shieldName">
-          <h1 id="david-title">
-            DAVID BARCLAY GURULE
-            <br />
-            <p id="subtitle">Full Stack Software Developer</p>
-          </h1>
-        </div>
-      </Link>
+      <div className="shieldName">
+        <h1 id="david-title">
+          DAVID BARCLAY GURULE
+          <br />
+          <p id="subtitle">Full Stack Software Developer</p>
+        </h1>
+      </div>
     </nav>
   );
 };
