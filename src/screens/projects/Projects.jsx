@@ -8,6 +8,8 @@ import everfreeDesktop from "./photos/everfree_desktop.png";
 import everfreeMobile from "./photos/everfree_mobile.png";
 import hekatesDesktop from "./photos/hekates_bees_desktop.png";
 import hekatesMobile from "./photos/hekates_bees_mobile.png";
+import luckyDice from "./photos/lucky_dice.png";
+import luckyDiceModal from "./photos/lucky_dice_modal.png";
 import wwwLogo from "./photos/www.png";
 import githubLogo from "./photos/github.png";
 import NavBar from "../../components/navigation/NavBar.jsx";
@@ -21,8 +23,8 @@ const Projects = () => {
 
       <div className="content">
         {/* ------------------------------------------ */}
-        <div className="hoverEffect1">
-          <div className="hekatesDiv">
+        <div className="hoverEffect">
+          <div className="hekatesDiv projectDiv">
             <img className="img1" src={hekatesDesktop} alt="everfree site" />
             <img
               className="img2"
@@ -51,8 +53,8 @@ const Projects = () => {
           <hr className="separator2" />
         </div>
         {/* ------------------------------------------ */}
-        <div className="hoverEffect2">
-          <div className="everfreeDiv">
+        <div className="hoverEffect">
+          <div className="everfreeDiv projectDiv">
             <img className="img1" src={everfreeDesktop} alt="everfree site" />
             <img
               className="img2"
@@ -81,8 +83,8 @@ const Projects = () => {
           <hr className="separator2" />
         </div>
         {/* ------------------------------------------ */}
-        <div className="hoverEffect3">
-          <div className="collisionCourseDiv">
+        <div className="hoverEffect">
+          <div className="collisionCourseDiv projectDiv">
             <img
               className="img1"
               src={collisionCourseDesktop}
@@ -115,8 +117,8 @@ const Projects = () => {
           <hr className="separator2" />
         </div>
         {/* ------------------------------------------ */}
-        <div className="hoverEffect4">
-          <div className="poopetratorDiv">
+        <div className="hoverEffect">
+          <div className="poopetratorDiv projectDiv">
             <img
               className="img1"
               src={poopetratorDesktop}
@@ -140,6 +142,40 @@ const Projects = () => {
             </a>
             <a
               href="https://github.com/darclay/poopetrator"
+              className="secondLink"
+              target="_blank"
+            >
+              <h3>go to code</h3>
+              <img className="githubLogo" src={githubLogo} alt="github logo" />
+            </a>
+          </div>
+        </div>
+        {/* ------------------------------------------- */}
+        <div className="hoverEffect">
+          <div className="diceGameDiv projectDiv">
+            <img
+              className="img1"
+              src={luckyDice}
+              alt="lucky dice site"
+            />
+            <img
+              className="img2"
+              src={luckyDiceModal}
+              alt="lucky dice site"
+            />
+          </div>
+
+          <div className="links">
+            <a
+              href="https://lucky-dice-game.netlify.app/"
+              className="firstLink"
+              target="_blank"
+            >
+              <h3>go to site</h3>
+              <img className="wwwLogo" src={wwwLogo} alt="www logo" />
+            </a>
+            <a
+              href="https://github.com/darclay/dice-game"
               className="secondLink"
               target="_blank"
             >
