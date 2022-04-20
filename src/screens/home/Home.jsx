@@ -11,7 +11,8 @@ import Footer from "../../components/footer/Footer.jsx";
 const Home = () => {
   return (
     <div className="homeDiv">
-      <NavBar />
+      <h1>This site is currently under construction.  I'm excited about upcoming changes.  Come visit me soon!</h1>
+      {/* <NavBar />
 
       <Link to="meet-dave">
         <div className="meetDavidDiv">
@@ -54,7 +55,7 @@ const Home = () => {
           <h2 className="homeSubHeading">Projects</h2>
         </div>
       </Link>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
