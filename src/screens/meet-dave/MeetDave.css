@@ -1,4 +1,4 @@
-.MeetDiv {
+/* .MeetDiv {
   display: flex;
   flex-direction: column;
   background-color: rgb(89, 110, 148);
@@ -44,7 +44,7 @@
   height: 300px;
   padding: 20px;
 }
-/* --------------------------------- */
+
 @media (max-width: 700px) {
   .MeetDiv .container2 {
     flex-direction: column;
@@ -75,4 +75,4 @@
   .MeetDiv .container1 .daveBio .middlePicsDiv .middlePics {
     display: none;
   }
-}
+} */

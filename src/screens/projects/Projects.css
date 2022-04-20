@@ -1,4 +1,4 @@
-.ProjectsDiv {
+/* .ProjectsDiv {
   background-color: rgb(89, 110, 148);
 }
 .ProjectsDiv .projectsTitle {
@@ -57,7 +57,7 @@
   background-color: rgb(49, 45, 45);
 }
 
-/* -------------------------------------------------- */
+
 @media (max-width: 800px) {
   .content .hekatesDiv {
     flex-direction: column;
@@ -77,4 +77,4 @@
   .content .img2 {
     display: none;
   }
-}
+} */

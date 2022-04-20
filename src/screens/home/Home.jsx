@@ -11,7 +11,14 @@ import Footer from "../../components/footer/Footer.jsx";
 const Home = () => {
   return (
     <div className="homeDiv">
-      <h1>This site is currently under construction.  I'm excited about upcoming changes.  Come visit me soon!</h1>
+      <div className="construction">
+        <h1>This site is currently under construction.  I'm excited about upcoming changes.  Come visit me soon!</h1>
+        <h3>Please email me at:</h3>
+        <h4>davidgurulejr@gmail.com</h4>
+        <a href="https://github.com/darclay" target="_blank">Visit me at GITHUB</a><br/>
+        <a href="https://www.linkedin.com/in/david-gurule-865624212/" target="_blank">Visit me at LINKEDIN</a>
+      </div>
+    
       {/* <NavBar />
 
       <Link to="meet-dave">
