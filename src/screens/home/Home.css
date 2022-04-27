@@ -1,10 +1,10 @@
-.construction {
+/* .construction {
   text-align: center;
   padding: 50px;
-}
+} */
 
 
-/* .homeDiv {
+.homeDiv {
   display: flex;
   flex-direction: column;
   background-color: rgb(89, 110, 148);
@@ -51,8 +51,7 @@
 .homeDiv .davidProjectDiv .projectPicsDivMobile {
   display: none;
 }
-/*--------------------------*/
-/* .homeDiv .meetDavidDiv #davidPic {
+.homeDiv .meetDavidDiv #davidPic {
   height: 80%;
 }
 .homeDiv .davidResumeDiv #resumePic {
@@ -76,8 +75,7 @@
   padding-right: 40px;
 } */
 
-/*-------------------------*/
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
   .homeDiv .meetDavidDiv {
     flex-direction: column;
   }
@@ -112,4 +110,4 @@
   .homeDiv .davidResumeDiv #resumePic {
     height: 300px;
   }
-} */
+}

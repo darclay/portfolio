@@ -1,4 +1,4 @@
-/* .MeetDiv {
+.MeetDiv {
   display: flex;
   flex-direction: column;
   background-color: rgb(89, 110, 148);
@@ -75,4 +75,4 @@
   .MeetDiv .container1 .daveBio .middlePicsDiv .middlePics {
     display: none;
   }
-} */
+}

@@ -1,4 +1,4 @@
-/* .resumeDiv .resumeTitle {
+.resumeDiv .resumeTitle {
   padding-left: 30px;
   font-family: 'Playfair Display', serif;
 }
@@ -121,4 +121,4 @@
     flex-direction: column;
     align-items: center;
   }
-} */
+}
